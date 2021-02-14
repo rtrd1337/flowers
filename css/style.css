@@ -1,0 +1,346 @@
+html {
+  font-size: 10px;
+}
+body{
+  background-color: ;
+}
+.container,
+.section {
+  font-family: 'Tahoma', serif;
+}
+.button,
+.phone-link {
+  font-size: 1.5rem;
+}
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.logo img {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+.button {
+  background-color: #33FFF2;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 7px;
+  text-transform: uppercase;
+  border: none;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #a16799;
+}
+.button phone-link {
+  display: block;
+}
+.phone-link {
+  display: inline-block;
+  text-align: center;
+  background-color: #33FFF2;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 0rem 0rem;
+  border-radius: 8px;
+  border: none;
+  height: 4rem;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.phone-link:hover {
+  cursor: pointer;
+  background-color: #a16799;
+}
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  text-align: center;
+  margin: 2rem 0 10rem;
+  font-weight: 600;
+  font-size: 3.6rem;
+}
+.main {
+  padding: 3rem 0 5rem;
+  background: #ffffff url(/img/flowers.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main-title {
+  margin-top: 5rem;
+}
+.main-title h1 {
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #ffffff;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #664675;
+  text-align: center;
+}
+.main-form {
+  margin-top: 5rem;
+  border-radius: 8px;
+  padding: 3rem 4rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-form-header {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+}
+.main-form-header strong {
+  font-size: 2rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border: 1px solid black;
+  padding: 1.7rem;
+}
+.main-form label {
+  position: absolute;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+}
+.main-form-btn {
+  display: block;
+  height: 5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+.header {
+  text-align: center;
+  height: 10rem;
+}
+.wrap {
+  width: 100%;
+  height: 7rem;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .main-title {
+    padding-bottom: 3px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    text-align: center;
+  }
+}
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 2rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 100%;
+  -webkit-transform: translateY(-370%);
+          transform: translateY(-370%);
+  position: absolute;
+  z-index: 90;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+}
+.prev {
+  background: url(../img/Features/) center no-repeat;
+  left: 0%;
+  background-size: 100%;
+}
+.next {
+  right: 0%;
+  background: url(../img/Features/) center no-repeat;
+  background-size: 100%;
+}
+.popap {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.popap-content {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 1rem 1rem;
+  top: 10%;
+  background-color: #ffffff;
+}
+.popap-form {
+  margin-top: 2rem;
+  padding: 0;
+}
+.popap-close {
+  position: absolute;
+  top: -1.7rem;
+  right: -10px;
+  width: 1px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 2.5rem;
+  -webkit-columns: #ffffff;
+          columns: #ffffff;
+}
+.popap-header {
+  font-weight: 600;
+}
+.popap-content {
+  text-align: center;
+}
+.feedback {
+  background: url(../img/) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.feedback h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.feedback-text {
+  position: relative;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border: 2px solid red;
+}
+
+}
+.feedback-prev-btn {
+  left: 0rem;
+}
+.feedback-next-btn {
+  right: 0rem ;
+}
+.feedback-slider {
+  padding: 10rem 15rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.7);
+}
+.feedback-slider p {
+  margin-top: -0.5rem;
+  font-size: 1.5rem;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  border: none;
+  background-color: #ffffff;
+}
+.feedback-slider-btn img {
+  width: 100%;
+}
+.media-object {
+  margin-top: 3rem;
+  width: 90px;
+  height: 90px;
+}
+.media-heading {
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.fotorama {
+  margin-left: 3rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    transition: .5s;
+    padding: 10px;
+    font-family: "Tahoma"
+}
+
+ul:hover li a {
+    filter: blur(5px);
+}
+
+ul:hover li a:hover {
+    font-size: 30px;
+    filter: blur(0px);
+    background-color: #33FFF2;
+}
